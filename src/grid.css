@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    gap: 20px;
+}
+
+.filled {
+    background-color: green;
+}

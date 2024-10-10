@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.active {
+    text-decoration: underline;
+    background-color: white;
+    color: blue;
+}
+
+.hover {
+    cursor: pointer;
+}

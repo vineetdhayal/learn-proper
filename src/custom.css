@@ -1,0 +1,27 @@
+.custom-radio {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-radio-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+
+.custom-radio input:checked + .custom-radio-button {
+    background-color: #2196F3;
+}
